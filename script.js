@@ -181,12 +181,12 @@ window.onload = function(){
 
         if (!selectedOperation) {
             if (a === '') return;
-            a = Math.pow(parseFloat(a), 2).toString();
+            a = Math.pow(parseFloat(a), 3).toString();
             outputElement.innerHTML = a;
         } 
         else {
             if (b === '') return;
-            b = Math.pow(parseFloat(b), 2).toString();
+            b = Math.pow(parseFloat(b), 3).toString();
             outputElement.innerHTML = b;
         }
     }
